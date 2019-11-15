@@ -165,14 +165,18 @@ exports.handler = skillBuilder
   .withCustomUserAgent('sample/basic-fact/v2')
   .lambda();
 
+// TODO: Replace this data with your own.
+// It is organized by language/locale.  You can safely ignore the locales you aren't using.
+// Update the name and messages to align with the theme of your skill
+
 
 const enData = {
   translation: {
-    SKILL_NAME: 'Space Facts',
-    GET_FACT_MESSAGE: 'Here\'s your fact: ',
-    HELP_MESSAGE: 'You can say tell me a space fact, or, you can say exit... What can I help you with?',
+    SKILL_NAME: 'Academic Articles Generator',
+    GET_FACT_MESSAGE: 'Here\'s your bullshit: ',
+    HELP_MESSAGE: 'You can say tell me a bullshit, or, you can say exit... What can I help you with?',
     HELP_REPROMPT: 'What can I help you with?',
-    FALLBACK_MESSAGE: 'The Space Facts skill can\'t help you with that.  It can help you discover facts about space if you say tell me a space fact. What can I help you with?',
+    FALLBACK_MESSAGE: 'The Academic Articles Generator skill can\'t help you with that. What can I help you with?',
     FALLBACK_REPROMPT: 'What can I help you with?',
     ERROR_MESSAGE: 'Sorry, an error occurred.',
     STOP_MESSAGE: 'Goodbye!',
@@ -187,15 +191,10 @@ const enData = {
   },
 };
 
-const enusData = {
-  translation: {
-    SKILL_NAME: 'American Space Facts',
-  },
-};
-
 
 // constructs i18n and l10n data structure
 const languageStrings = {
+
   'en': enData,
-  'en-US': enusData
+
 };
