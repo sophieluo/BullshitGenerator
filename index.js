@@ -268,9 +268,87 @@ let argument = [
 ]
 
 let quotes = [
-    "Lincoln said, 123",
-    "Someone said, 135",
-    "Another person said, 365",
+    'Albert Einstein said, A person who never made a mistake never tried anything new.',
+    'Socrates said, An unexamined life is not worth living.',
+    'Theodore Roosevelt said, Believe you can and you’re halfway there.',
+    'Joshua J. Marine said, Challenges are what make life interesting and overcoming them is what makes life meaningful.',
+    'Norman Vincent Peale said, Change your thoughts and you change your world.',
+    'W. Clement Stone said, Definiteness of purpose is the starting point of all achievement.',
+    'Norman Vaughan said, Dream big and dare to fail.',
+    'Sir Claus Moser said, Education costs money. But then so does ignorance.',
+    'Woody Allen said, Eighty percent of success is showing up.',
+    'Benjamin Franklin said, Either write something worth reading or do something worth writing.',
+    'Pablo Picasso said, Every child is an artist. The problem is how to remain an artist once he grows up.',
+    'Babe Ruth said, Every strike brings me closer to the next home run.',
+    'George Addair said, Everything you’ve ever wanted is on the other side of fear.',
+    'Japanese Proverb said, Fall seven times and stand up eight.',
+    'Henry David Thoreau said, Go confidently in the direction of your dreams. Live the life you have imagined.',
+    'Dalai Lama said, Happiness is not something readymade. It comes from your own actions.',
+    'Anne Frank said, How wonderful it is that nobody need wait a single moment before starting to improve the world.',
+    'Stephen Covey said, I am not a product of my circumstances. I am a product of my decisions.',
+    'Florence Nightingale said, I attribute my success to this: I never gave or took any excuse.',
+    'Benjamin Franklin said, I didn’t fail the test. I just found 100 ways to do it wrong.',
+    'Leonardo da Vinci said, I have been impressed with the urgency of doing. Knowing is not enough; we must apply. Being willing is not enough; we must do.',
+    'Vincent van Gogh said, I would rather die of passion than of boredom.',
+    'Michael Jordan said, I’ve missed more than 9000 shots in my career. I’ve lost almost 300 games. 26 times I’ve been trusted to take the game winning shot and missed. I’ve failed over and over and over again in my life. And that is why I succeed.',
+    'Confucius said, It does not matter how slowly you go as long as you do not stop.',
+    'George Eliot said, It is never too late to be what you might have been.',
+    'Abraham Lincoln said, It’s not the years in your life that count. It’s the life in your years.',
+    'Charles Swindoll said, Life is 10% what happens to me and 90% of how I react to it.',
+    'John Lennon said, Life is what happens to you while you’re busy making other plans.',
+    'Anais Nin said, Life shrinks or expands in proportion to one’s courage.',
+    'Martin Luther King Jr. said, Our lives begin to end the day we become silent about things that matter.',
+    'Eleanor Roosevelt said, Remember no one can make you feel inferior without your consent.',
+    'Dalai Lama said, Remember that not getting what you want is sometimes a wonderful stroke of luck.',
+    'Arthur Ashe said, Start where you are. Use what you have. Do what you can.',
+    'Jesse Owens said, The battles that count aren’t the ones for gold medals. The struggles within yourself–the invisible battles inside all of us–that’s where it’s at.',
+    'Frank Sinatra said, The best revenge is massive success.',
+    'Chinese Proverb said, The best time to plant a tree was 20 years ago. The second best time is now.',
+    'Buddha said, The mind is everything. What you think you become.',
+    'Alice Walker said, The most common way people give up their power is by thinking they don’t have any.',
+    'Ralph Waldo Emerson said, The only person you are destined to become is the person you decide to be.',
+    'Steve Jobs said, The only way to do great work is to love what you do.',
+    'Chinese Proverb said, The person who says it cannot be done should not interrupt the person who is doing it.',
+    'Ayn Rand said, The question isn’t who is going to let me; it’s who is going to stop me.',
+    'Mark Twain said, The two most important days in your life are the day you are born and the day you find out why.',
+    'Roger Staubach said, There are no traffic jams along the extra mile.',
+    'Les Brown said, Too many of us are not living our dreams because we are living our fears.',
+    'Earl Nightingale said, We become what we think about.',
+    'Plato said, We can easily forgive a child who is afraid of the dark; the real tragedy of life is when men are afraid of the light.',
+    'Kevin Kruse said, We must balance conspicuous consumption with conscious capitalism.',
+    'Bob Dylan said, What’s money? A man is a success if he gets up in the morning and goes to bed at night and in between does what he wants to do.',
+    'Oprah Winfrey said, You become what you believe.',
+    'Christopher Columbus said, You can never cross the ocean until you have the courage to lose sight of the shore.',
+    'Unknown said, You can’t fall if you don’t climb. But there’s no joy in living your whole life on the ground.',
+    'Wayne Gretzky said, You miss 100% of the shots you don’t take.',
+    'Mae Jemison said, It’s your place in the world; it’s your life. Go on and do all you can with it, and make it the life you want to live.',
+    'Booker T. Washington said, Few things can help an individual more than to place responsibility on him, and to let him know that you trust him.',
+    'Jesus said, Ask and it will be given to you; search, and you will find; knock and the door will be opened for you.',
+    'Maya Angelou said, Life is not measured by the number of breaths we take, but by the moments that take our breath away.',
+    'Confucius said, Everything has beauty, but not everyone can see.',
+    ' Ancient Indian Proverb said, Certain things catch your eye, but pursue only those that capture the heart.',
+    'Albert Einstein said, Strive not to be a success, but rather to be of value.',
+    'Vince Lombardi said, Winning isn’t everything, but wanting to win is.',
+    'Beverly Sills said, You may be disappointed if you fail, but you are doomed if you don’t try.',
+    'Sheryl Sandberg said, If you’re offered a seat on a rocket ship, don’t ask what seat! Just get on.',
+    'Lao Tzu said, When I let go of what I am, I become what I might be.',
+    'Napoleon Hill said, Whatever the mind of man can conceive and believe, it can achieve.',
+    'Kevin Kruse said, Life isn’t about getting and having, it’s about giving and being.',
+    'Booker T. Washington said, If you want to lift yourself up, lift up someone else.',
+    'Zig Ziglar said, People often say that motivation doesn’t last. Well, neither does bathing. That’s why we recommend it daily.',
+    'Farrah Gray said, Build your own dreams, or someone else will hire you to build theirs.',
+    'Jim Rohn said, Either you run the day, or the day runs you.',
+    'Jamie Paolinetti said, Limitations live only in our minds. But if we use our imaginations, our possibilities become limitless.',
+    'Steve Jobs said, Your time is limited, so don’t waste it living someone else’s life.',
+    'Latin Proverb said, If the wind will not serve, take to the oars.',
+    'Maya Angelou said, You can’t use up creativity. The more you use, the more you have.',
+    'Amelia Earhart said, The most difficult thing is the decision to act, the rest is merely tenacity.',
+    'Rosa Parks said, I have learned over the years that when one’s mind is made up, this diminishes fear.',
+    'Zig Ziglar said, If you can dream it, you can achieve it.',
+    'Tony Robbins said, If you do what you’ve always done, you’ll get what you’ve always gotten.',
+    'Henry Ford said, Whether you think you can or you think you can’t, you’re right.',
+    'Bill Cosby said, In order to succeed, your desire for success should be greater than your fear of failure.',
+    'Vincent Van Gogh said, If you hear a voice within you say “you cannot paint,” then by all means paint and that voice will be silenced.',
 ]
 
 let after = [
@@ -293,7 +371,7 @@ function randomNum(min = 0, max = 100){
 }
 
 function createQuotes(){
-    let quote = (quotes)
+    let quote = randomSent(quotes)
     return quote
 }
 
@@ -330,6 +408,12 @@ function createArticle(){
                 paragraphLength = paragraphLength + sentence.length;
                 paragraph = paragraph + sentence;
             }
+
+        // let sentence1 = createQuotes();
+        // paragraph = paragraph + sentence1;
+        // // let sentence2 = createQuotes();
+        // // paragraph = paragraph + sentence2;
+
         }
         paragraph = createParagragh(paragraph);
         article.push(paragraph);
