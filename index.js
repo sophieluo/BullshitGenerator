@@ -440,11 +440,6 @@ exports.handler = skillBuilder
   .withCustomUserAgent('sample/basic-fact/v2')
   .lambda();
 
-// TODO: Replace this data with your own.
-// It is organized by language/locale.  You can safely ignore the locales you aren't using.
-// Update the name and messages to align with the theme of your skill
-
-
 const enData = {
   translation: {
     SKILL_NAME: 'Academic Articles Generator',
@@ -462,7 +457,10 @@ const enData = {
 
 // constructs i18n and l10n data structure
 const languageStrings = {
-
   'en': enData,
-
 };
+
+// TODO: 1. write a separate launch intent (welcome message)
+// TODO: 2. edit current GetNewFactIntent to incorporate self-defind topic
+// TODO: 3. better syntax
+// TODO: 4. more variations in "xxx said"
