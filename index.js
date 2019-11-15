@@ -33,7 +33,7 @@ exports.handler = async (event) => {
     let quotes = [
         "Lincoln said, 123",
         "Someone said, 135",
-        "Another person said, 3w6",
+        "Another person said, 365",
     ]
 
     let after = [
